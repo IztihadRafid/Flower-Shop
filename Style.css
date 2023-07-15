@@ -237,7 +237,7 @@
         text-align: center;
     }
     .Boxes{
-        width: 100%;
+        width: auto;
        
         flex-direction: column;
         justify-content: space-around;
@@ -245,7 +245,7 @@
         padding-bottom: 30px;
     }
     .box{
-        padding: 30px;
+        padding: 25px;
         
         
     }
@@ -254,20 +254,20 @@
         background-color: rgb(240, 182, 192);
         border-top-left-radius:250px ;
         border-top-right-radius: 250px;
-        padding: 40px 40px 0px 40px;
+        padding: 30px 30px 0px 30px;
         
     }
     .image2{
         background-color: rgb(182, 242, 250);
         border-top-left-radius:250px ;
         border-top-right-radius: 250px;
-        padding: 20px 20px 0px 20px;
+        padding: 15px 15px 0px 15px;
     }
     .image3{
         background-color: rgb(178, 241, 166);
         border-top-left-radius:250px ;
         border-top-right-radius: 250px;
-        padding: 40px 40px 0px 40px;
+        padding: 30px 30px 0px 30px;
     }
     .upper-body-container{
         background-color: rgb(238, 212, 216);
@@ -275,16 +275,17 @@
         justify-content: space-around;
         align-items: center;
         padding: 70px 150px;
+        font-size: 15px;
     }
 
 
 
     .picture-boxes{
-        margin: 10px;
+        margin: 5px;
         text-align: center;
     }
     .flowers{
-        margin: 15px;
+        margin: 8px;
     }
     .flowers:hover{
         box-shadow: 7px 7px 7px rgb(247, 83, 83);
