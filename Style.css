@@ -317,4 +317,27 @@
     .form-fillup{
         text-align: center;
     }
+    .Footer{
+        background-color: black;
+        padding: 50px 80px;
+    }
+    .footer-desc{
+        text-align: center;
+        padding: 20px;
+        color: white;
+        
+    }
+    .footer-title{
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        font-size: 30px;
+        padding: 8px;
+    }
+    .spanned-flower{
+        color: rgb(233, 82, 107);
+        
+        
+    }
+    .copyright{
+        color: gainsboro;
+    }
 }
