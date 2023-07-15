@@ -176,3 +176,145 @@
 .copyright{
     color: gainsboro;
 }
+
+@media screen and (max-width: 576px)  {
+    .first-banner-container{
+        height: 100vh;
+        background-color: rgb(243, 224, 226);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+       
+    } 
+    .first-banner-image{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 330px;
+        height: 330px;
+    }
+    .intro-text{
+        font-size: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 20px;
+    
+    
+    }
+    .intro-desc{
+        font-size: 15px;
+        color: gray;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+    .btn{
+        padding: 12px 16px;
+        font-size: 14px;
+        border-radius: 8px;
+        background-color: rgb(207, 76, 120);
+        border-style: none;
+        color: white;
+    }
+    .btn:hover{
+        padding: 12px 16px;
+        font-size: 14px;
+        border-radius: 8px;
+        background-color: rgb(238, 103, 148);
+        border-style: none;
+        color: white;
+    }
+    .upper-second-header{
+        font-size: 30px ;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+    .upper-desc{
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: gray;
+    }
+    .upper-second-coantainer{
+        text-align: center;
+    }
+    .Boxes{
+        width: 100%;
+       
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .box{
+        padding: 30px;
+        
+        
+    }
+    
+    .image1{
+        background-color: rgb(240, 182, 192);
+        border-top-left-radius:250px ;
+        border-top-right-radius: 250px;
+        padding: 40px 40px 0px 40px;
+        
+    }
+    .image2{
+        background-color: rgb(182, 242, 250);
+        border-top-left-radius:250px ;
+        border-top-right-radius: 250px;
+        padding: 20px 20px 0px 20px;
+    }
+    .image3{
+        background-color: rgb(178, 241, 166);
+        border-top-left-radius:250px ;
+        border-top-right-radius: 250px;
+        padding: 40px 40px 0px 40px;
+    }
+    .upper-body-container{
+        background-color: rgb(238, 212, 216);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 70px 150px;
+    }
+
+
+
+    .picture-boxes{
+        margin: 10px;
+        text-align: center;
+    }
+    .flowers{
+        margin: 15px;
+    }
+    .flowers:hover{
+        box-shadow: 7px 7px 7px rgb(247, 83, 83);
+    }
+    .body-2nd-desc{
+        text-align: center;
+        padding: 15px;
+    }
+    .form-section{
+        background-image: url("Flower Asset/Rectangle 9.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 80%;
+        margin: 5% auto;
+        padding: 50px;
+    }
+    .input-item{
+        border-radius: 5px;
+        border-style: none;
+        padding: 12px 80px;
+        color: grey;
+        
+        width: 50px;
+    }
+    .form-header{
+        text-align: center;
+        font-size: 20px;
+    }
+    .form-fillup{
+        text-align: center;
+    }
+}
